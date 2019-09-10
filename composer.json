@@ -1,0 +1,33 @@
+{
+    "name": "smile/module-elasticsuite-shopbybrand",
+    "type": "magento2-module",
+    "description": "Extension of Magento2 for fix compatibility of ShopByBrand with ElasticSuite",
+    "keywords": ["magento2", "elasticsearch", "elasticsuite", "shopbybrand"],
+    "license": "OSL-3.0",
+    "require": {
+        "magento/framework": "^101.0",
+        "smile/elasticsuite": "^2.6"
+    },
+    "authors":[
+        {
+            "name": "Maxime Queneau",
+            "email": "maxime.queneau@smile.fr",
+            "homepage": "https://www.smile.eu/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Smile\\ElasticsuiteShopbybrand\\": ""
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ]
+}
